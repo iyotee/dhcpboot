@@ -4,6 +4,9 @@ Un outil avancé de surveillance DHCP avec focus sur l'Option 50 (Requested IP A
 
 ## 📋 Modes d'Utilisation
 
+### 🖥️ **Executable** - `/dist/monitor.exe`
+**Executable Windows** pour une surveillance rapide et légère et intuitive.
+
 ### 🖥️ **Mode CLI** - `dhcpboot.py`
 **Interface en ligne de commande** pour une surveillance rapide et légère.
 
