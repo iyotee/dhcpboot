@@ -776,13 +776,11 @@ class DHCPMonitorGUI(ctk.CTk):
         """Mettre à jour l'indicateur de permissions"""
         if self.permission_manager.is_admin():
             self.permission_label.configure(text="🔓 Privilèges administrateur", 
-                                           fg_color="green")
-            if hasattr(self, 'admin_button'):
-                self.admin_button.pack_forget()
+                                           text_color="green")
             self.status_label.configure(text="⏹️ Arrêté - Prêt à démarrer")
         else:
             self.permission_label.configure(text="🔒 Privilèges limités", 
-                                           fg_color="red")
+                                           text_color="red")
             self.status_label.configure(text="⚠️ Privilèges insuffisants - Capture limitée")
     
     def refresh_network_info(self):
