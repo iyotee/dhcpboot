@@ -490,9 +490,10 @@ class DHCPMonitorGUI(ctk.CTk):
         }
     
     def create_sidebar(self):
-        """Créer la sidebar moderne"""
-        self.sidebar_frame = ctk.CTkFrame(self, width=350, corner_radius=0)
+        """Créer la sidebar moderne avec scrolling"""
+        self.sidebar_frame = ctk.CTkScrollableFrame(self, width=350, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
+        self.sidebar_frame.grid_columnconfigure(0, weight=1)
         
         # Titre de l'application
         self.logo_label = ctk.CTkLabel(self.sidebar_frame, 
