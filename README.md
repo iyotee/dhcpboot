@@ -191,7 +191,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👥 Auteurs
 
-- **Votre Nom** - *Développement initial* - [@votre-username](https://github.com/votre-username)
+- **Iyotee** - *Développement initial* - [@iyotee](https://github.com/votre-username)
 
 ## 🙏 Remerciements
 
